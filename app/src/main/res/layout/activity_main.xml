@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context="com.example.dingjunwei.edittextextra.MainActivity">
+
+    <com.example.dingjunwei.edittextextra.FilterEditText
+        android:id="@+id/fet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="123"
+        app:clearDrawable="@drawable/clear"
+        app:pwdGoneDrawable="@drawable/ic_pwd_gone"
+        app:pwdVisibleDrawable="@drawable/ic_pwd_visiable" />
+
+    <com.example.dingjunwei.edittextextra.edittextextra.ET
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="123"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:password="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_account_circle"
+        android:hint="Basic"
+        app:met_clearButton="true" />
+
+</LinearLayout>

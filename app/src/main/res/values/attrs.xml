@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--文字描边-->
+    <declare-styleable name="FilterEditText">
+        <attr name="clearDrawable" format="reference" />
+        <attr name="pwdVisibleDrawable" format="reference" />
+        <attr name="pwdGoneDrawable" format="reference" />
+    </declare-styleable>
+
+</resources>
